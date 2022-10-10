@@ -24,7 +24,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-As the gif doesn't work, here is an imgur link with the gif there: https://imgur.com/a/oPETSIo.
+As the gif doesn't work, here is an imgur link with the gif there: https://imgur.com/a/RulZnd9 . For some reason the title showed up with the retweet button even though I didn't put any title there at all (The title that showed up was "Button"). I tried to fix this by changing it to a random letter and making the text color to white but that doesnt work either.
 
 
 
