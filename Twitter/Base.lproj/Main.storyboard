@@ -83,9 +83,9 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlK-SZ-hwd">
-                                            <rect key="frame" x="311" y="71" width="54" height="44"/>
+                                            <rect key="frame" x="301" y="71" width="64" height="44"/>
                                             <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain" image="favor-icon">
+                                            <buttonConfiguration key="configuration" style="plain" image="favor-icon" title="h">
                                                 <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </buttonConfiguration>
                                             <connections>
@@ -94,12 +94,13 @@
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CJp-7N-4Kv">
                                             <rect key="frame" x="247" y="71" width="54" height="44"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="44" id="NaE-wu-niF"/>
                                                 <constraint firstAttribute="width" constant="54" id="a8m-QM-6jY"/>
                                             </constraints>
                                             <state key="normal" title="Button"/>
-                                            <buttonConfiguration key="configuration" style="plain" image="retweet-icon">
+                                            <buttonConfiguration key="configuration" style="plain" image="retweet-icon" title="h">
                                                 <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </buttonConfiguration>
                                             <connections>
@@ -113,13 +114,14 @@
                                         <constraint firstItem="xGB-9O-GGM" firstAttribute="top" secondItem="d2s-a1-4JR" secondAttribute="topMargin" id="E3t-ZE-r5z"/>
                                         <constraint firstAttribute="bottom" secondItem="dlK-SZ-hwd" secondAttribute="bottom" constant="10" id="HHJ-g1-8lt"/>
                                         <constraint firstItem="7fI-h5-ZJg" firstAttribute="leading" secondItem="xGB-9O-GGM" secondAttribute="trailing" constant="8" symbolic="YES" id="IKN-xH-msd"/>
+                                        <constraint firstItem="CJp-7N-4Kv" firstAttribute="top" secondItem="dlK-SZ-hwd" secondAttribute="bottom" constant="-44" id="JBz-5M-o89"/>
                                         <constraint firstAttribute="bottom" secondItem="CJp-7N-4Kv" secondAttribute="bottom" constant="10" id="MP3-Rx-sR1"/>
                                         <constraint firstItem="CJp-7N-4Kv" firstAttribute="top" secondItem="7fI-h5-ZJg" secondAttribute="bottom" constant="10" id="Mbq-KZ-yAG"/>
                                         <constraint firstItem="dlK-SZ-hwd" firstAttribute="top" secondItem="7fI-h5-ZJg" secondAttribute="bottom" constant="10" id="TUv-nL-fRl"/>
                                         <constraint firstItem="NwL-d7-c7F" firstAttribute="top" secondItem="d2s-a1-4JR" secondAttribute="topMargin" id="Wds-mW-WCZ"/>
                                         <constraint firstItem="7fI-h5-ZJg" firstAttribute="top" secondItem="NwL-d7-c7F" secondAttribute="bottom" constant="8" symbolic="YES" id="jEf-dQ-phX"/>
                                         <constraint firstItem="xGB-9O-GGM" firstAttribute="leading" secondItem="d2s-a1-4JR" secondAttribute="leadingMargin" id="kx7-zD-pf0"/>
-                                        <constraint firstItem="dlK-SZ-hwd" firstAttribute="leading" secondItem="CJp-7N-4Kv" secondAttribute="trailing" constant="10" id="uoa-fT-IhR"/>
+                                        <constraint firstItem="dlK-SZ-hwd" firstAttribute="leading" secondItem="CJp-7N-4Kv" secondAttribute="trailing" id="uoa-fT-IhR"/>
                                         <constraint firstItem="7fI-h5-ZJg" firstAttribute="trailing" secondItem="d2s-a1-4JR" secondAttribute="trailingMargin" id="utr-qF-B6F"/>
                                     </constraints>
                                 </tableViewCellContentView>
